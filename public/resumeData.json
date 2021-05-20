@@ -1,0 +1,137 @@
+{
+  "main": {
+    "name": "Taylor Dragoo",
+    "occupation": "Software Developer",
+    "description": "With a passion for web applications, UX and sound design",
+    "image": "profpic.jpeg",
+    "bio": " ",
+    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "email": "taylordragoo@gmail.com",
+    "phone": "405-408-8066",
+    "address": {
+      "street": "4001 Oxford Way",
+      "city": "Norman",
+      "state": "OK",
+      "zip": "73072"
+    },
+    "website": "http://www.taylordragoo.com",
+    "resumedownload": "https://drive.google.com/file/d/1UkSkF2okZmCqqFmtlmvCrgrqCKcgRalJ/view?usp=sharing",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "http://facebook.com/taylor.dragoo",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "http://twitter.com/taylordragoo",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/taylorddragoo/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "http://instagram.com/taylorddragoo",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/taylordragoo",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": " ",
+    "education": [
+      {
+        "school": "Fort Hays State University",
+        "degree": "Bachelor of Science in Computer Science",
+        "graduated": "Est. Fall 2021",
+        "description": " "
+      },
+      {
+        "school": "University of Central Oklahoma",
+        "degree": "Bachelor of Applied Technology in Sound Design",
+        "graduated": "Awarded Fall 2013",
+        "description": " "
+      }
+    ],
+    "work": [
+      {
+        "company": "University of Oklahoma",
+        "title": "IT Support Analyst",
+        "years": "Oct 2016 - Present",
+        "description1": "Responded to service-related, support emails and calls via Helpdesk; escalating issues as required according to standard operating procedures",
+        "description2": "Documented issues and updated technical articles",
+        "description3": "Provided guidance on software configuration best practices to client’s specific infrastructure requirements",
+        "description4": "Managed user accounts and access in Microsoft Active Directory, Exchange Management Console and Office365 Cloud Exchange Management Console."
+      }
+    ],
+    "skills": [
+      {
+        "name": "Javascript",
+        "level": "90%"
+      },
+      {
+        "name": "C#",
+        "level": "80%"
+      },
+      {
+        "name": "React",
+        "level": "60%"
+      },
+      {
+        "name": ".NET",
+        "level": "40%"
+      },
+      {
+        "name": "MySQL / NoSQL",
+        "level": "55%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Magazine Subscription",
+        "category": "Subscribe to your favorite magazine. Built using C#, ASP .NET MVC and MySQL",
+        "image": "github-logo.png",
+        "url": "https://github.com/taylordragoo/MagSubApp"
+      },
+      {
+        "title": "CryptoTracker",
+        "category": "React based Crypto tracker that pulls latest Crypto prices from Crypto Compare API",
+        "image": "bitcoin-logo.jpeg",
+        "url": "https://cryptotracker-online.herokuapp.com/#/"
+      },
+      {
+        "title": "PhaserJs Space Adventure",
+        "category": "Turn-based space adventure with Phaser, React, Webpack, Express and Heroku",
+        "image": "phaser-logo.png",
+        "url": "http://space-phaser-game.herokuapp.com"
+      },
+      {
+        "title": "Personal Website",
+        "category": "Built using React and deployed via Heroku",
+        "image": "github-logo.png",
+        "url": "https://github.com/taylordragoo/react-resume"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+        "user": "Kareem Abdul Jabbar"
+      },
+      {
+        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+        "user": "Steve Wozniak... impersonator"
+      }
+    ]
+  }
+}
