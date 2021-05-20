@@ -1,0 +1,35 @@
+{
+  "paths": [
+    {
+      "name": "/items",
+      "lambdaFunction": "atomicCounter",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/items"
+    }
+  ],
+  "resourceName": "viewcounter",
+  "apiName": "viewcounter",
+  "functionArns": [
+    {
+      "lambdaFunction": "atomicCounter"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-amplify281d7d3f85f94-staging-140619-authRole",
+    "unAuthRoleName": "amplify-amplify281d7d3f85f94-staging-140619-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "atomicCounter",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

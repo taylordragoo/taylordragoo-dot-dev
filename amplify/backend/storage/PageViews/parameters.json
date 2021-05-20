@@ -1,0 +1,5 @@
+{
+    "tableName": "counterTable",
+    "partitionKeyName": "Hits",
+    "partitionKeyType": "N"
+}
