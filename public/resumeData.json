@@ -3,7 +3,7 @@
     "name": "Taylor Dragoo",
     "occupation": "Software Developer",
     "description": "With a passion for web applications, UX and sound design",
-    "image": "profpic.jpeg",
+    "image": "profpic.jpg",
     "bio": " ",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "taylordragoo@gmail.com",
@@ -105,7 +105,7 @@
       {
         "title": "CryptoTracker",
         "category": "React based Crypto tracker that pulls latest Crypto prices from Crypto Compare API",
-        "image": "bitcoin-logo.jpeg",
+        "image": "bitcoin-logo.jpg",
         "url": "https://cryptotracker-online.herokuapp.com/#/"
       },
       {
