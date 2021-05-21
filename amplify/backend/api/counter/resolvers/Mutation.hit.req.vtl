@@ -1,0 +1,24 @@
+$util.qr($context.args.input.put("__typename", "Counter"))
+
+#if( $util.isNullOrBlank($context.args.input.id) )
+    $util.error("You MUST pass an `id` parameter")
+#else
+
+{
+  "version": "2017-02-28",
+  "operation": "UpdateItem",
+  "key": {
+      "id": $util.dynamodb.toDynamoDBJson($ctx.args.input.id)
+  },
+  "update": {
+    "expression": "SET #typename = :typename ADD hits :one",
+    "expressionNames": {
+        "#typename": "__typename"
+    },
+    "expressionValues": {
+        ":one": $util.dynamodb.toDynamoDBJson(1),
+        ":typename": $util.dynamodb.toDynamoDBJson("Counter")
+    }
+  }
+}
+#end

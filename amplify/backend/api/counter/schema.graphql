@@ -1,0 +1,15 @@
+type Counter
+    @model(
+        queries: { get: "counter" },
+        mutations: { create: "hit" },
+        subscriptions: null
+    )
+{
+    id: String!
+    hits: Int
+}
+
+type Subscription {
+    hits(id: String!): Counter
+        @aws_subscribe(mutations: ["hit"])
+}

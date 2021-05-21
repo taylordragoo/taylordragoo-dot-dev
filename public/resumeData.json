@@ -17,7 +17,7 @@
       "zip": "73072"
     },
     "website": "http://www.taylordragoo.com",
-    "resumedownload": "https://drive.google.com/file/d/1UkSkF2okZmCqqFmtlmvCrgrqCKcgRalJ/view?usp=sharing",
+    "resumedownload": "https://drive.google.com/file/d/1XGR0q8advklA6jvE1mJTctFk3dfbCPxE/view?usp=sharing",
     "social": [
       {
         "name": "facebook",
@@ -64,35 +64,43 @@
     ],
     "work": [
       {
-        "company": "University of Oklahoma",
-        "title": "IT Support Analyst",
+        "company": "IT Support Analyst",
+        "title": "University of Oklahoma",
         "years": "Oct 2016 - Present",
-        "description1": "Responded to service-related, support emails and calls via Helpdesk; escalating issues as required according to standard operating procedures",
-        "description2": "Documented issues and updated technical articles",
-        "description3": "Provided guidance on software configuration best practices to client’s specific infrastructure requirements",
-        "description4": "Managed user accounts and access in Microsoft Active Directory, Exchange Management Console and Office365 Cloud Exchange Management Console."
+        "description1": "Provide a positive customer-focused service in a high-volume environment while meeting service level agreement standards.",
+        "description2": "Led the team in calls and ticket resolutions over the course of 2020, as we experienced a 40% increase in desktop support tickets from the year prior.",
+        "description4": "Technology Used: Active Directory, Exchange Management Console, Dell Encryption Enterprise, PowerShell, VMWare.",
+        "description3": "Managed user accounts and access in Microsoft Active Directory, Exchange Management Console and Office365 Cloud Exchange Management Console."
+      },
+      {
+        "company": "Audio Engineer",
+        "title": "Audio Engineer and Consultant",
+        "years": "April 2013 - Aug 2016",
+        "description1": "Audio Post-Production Engineer involved with multiple feature-length films that went on to be showcased on Netflix, Comic-Con International, and Theatres throughout the country.",
+        "description2": "Technology: Avid Pro Tools, Ableton, Soundminer, Universal Audio, SoundToys"
+      
       }
     ],
     "skills": [
       {
         "name": "Javascript",
-        "level": "90%"
+        "level": "95%"
       },
       {
         "name": "C#",
-        "level": "80%"
+        "level": "85%"
       },
       {
         "name": "React",
-        "level": "60%"
+        "level": "75%"
       },
       {
         "name": ".NET",
-        "level": "40%"
+        "level": "70%"
       },
       {
         "name": "MySQL / NoSQL",
-        "level": "55%"
+        "level": "83%"
       }
     ]
   },
