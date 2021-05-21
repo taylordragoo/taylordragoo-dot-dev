@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Amplify, { API, graphqlOperation } from 'aws-amplify';
-import awsmobile from '../aws-exports';
+import awsmobile from '../aws-exports.js';
 import * as mutations from "../graphql/mutations";
 import * as subscriptions from "../graphql/subscriptions";
 
