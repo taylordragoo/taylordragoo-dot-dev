@@ -40,7 +40,9 @@ class Header extends Component {
                   {networks}
                   <br />
                   <br />
-                  <div data-counter-id="test">Loading...</div>
+                  <div>
+                     <h3><span>DynamoDB View Counter: </span><span data-counter-id="test"> Loading....</span></h3>
+                  </div>
                </ul>
             </div>
          </div>
