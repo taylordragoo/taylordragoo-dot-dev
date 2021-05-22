@@ -4,7 +4,7 @@
 export const hit = /* GraphQL */ `
   mutation{
     hit(input: {
-      id: "taylordragoo"
+      id: "test"
     }){
       id
       hits
