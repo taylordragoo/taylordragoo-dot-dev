@@ -75,11 +75,12 @@
       },
       {
         "company": "Audio Engineer",
-        "title": "Audio Engineer and Consultant",
+        "title": "Audio Post-Production Engineering and Consultation",
         "years": "April 2013 - Aug 2016",
-        "description1": "Audio Post-Production Engineer involved with multiple feature-length films that went on to be showcased on Netflix, Comic-Con International, and Theatres throughout the country.",
-        "description2": "Technology: Avid Pro Tools, Ableton, Soundminer, Universal Audio, SoundToys"
-      
+        "description1": "Audio Post-Production Engineer and consultant primarily focused on Film, Television and Interactive media.",
+        "description2": "Major projects involve feature-length films that went on to be showcased on Netflix, Comic-Con International, and Theatres throughout the country",
+        "description3": "Execute in a fast-paced, highly fluid environment and collaborate with teams in other offices",
+        "description4": "Technology: Avid Pro Tools, Ableton, Soundminer, Universal Audio, SoundToys"
       }
     ],
     "skills": [
@@ -109,25 +110,25 @@
     "projects": [
       {
         "title": "Magazine Subscription",
-        "category": "Subscribe to your favorite magazine. Built using C#, ASP .NET MVC and MySQL",
+        "category": "Technologies Utilized: .NET Framework, ASP.Net, Entity Framework, XML, HTML, CSS, MySQL.",
         "image": "github-logo.png",
         "url": "https://github.com/taylordragoo/MagSubApp"
       },
       {
         "title": "CryptoTracker",
-        "category": "React based Crypto tracker that pulls latest Crypto prices from Crypto Compare API",
+        "category": "Technologies Utilized: Axios, ReactJs, MomentJs and Heroku",
         "image": "bitcoin-logo.jpg",
         "url": "https://cryptotracker-online.herokuapp.com/#/"
       },
       {
         "title": "PhaserJs Space Adventure",
-        "category": "Turn-based space adventure with Phaser, React, Webpack, Express and Heroku",
+        "category": "Technologies Utilized: Phaser 3, React, Express, Webpack and Heroku",
         "image": "phaser-logo.png",
         "url": "http://space-phaser-game.herokuapp.com"
       },
       {
         "title": "Personal Website",
-        "category": "Built using React and deployed via Heroku",
+        "category": "Technologies Utilized: AWS Amplify, S3, Route53, Certificates Manager, CloudFront, Lambda, DynamoDB, AWS SAM, Javascript, React.",
         "image": "github-logo.png",
         "url": "https://github.com/taylordragoo/react-resume"
       }
