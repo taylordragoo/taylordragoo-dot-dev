@@ -65,9 +65,17 @@
     ],
     "work": [
       {
+        "company": "Full Stack Developer",
+        "title": "University of Oklahoma",
+        "years": "July 2021 - Present",
+        "description1": "Collaborated with strategist and end-user to define and develop new application concepts to be used by the College of Medicine at the Health Sciences Center.",
+        "description2": "Drove continual improvement to system architecture by refactoring old legacy code that had been written in ColdFusion 11 to Laravel.",
+        "description3": "Provide feedback to the development group to improve agile project management methods."
+      },
+      {
         "company": "IT Support Analyst",
         "title": "University of Oklahoma",
-        "years": "Oct 2016 - Present",
+        "years": "Oct 2016 - June 2021",
         "description1": "Provide a positive customer-focused service in a high-volume environment while meeting service level agreement standards.",
         "description2": "Led the team in calls and ticket resolutions over the course of 2020, as we experienced a 40% increase in desktop support tickets from the year prior.",
         "description4": "Technology Used: Active Directory, Exchange Management Console, Dell Encryption Enterprise, PowerShell, VMWare.",
