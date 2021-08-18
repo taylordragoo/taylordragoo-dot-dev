@@ -94,23 +94,31 @@
     "skills": [
       {
         "name": "Javascript",
-        "level": "95%"
+        "level": "100%"
       },
       {
         "name": "C#",
-        "level": "85%"
+        "level": "90%"
       },
       {
-        "name": "React",
-        "level": "75%"
+        "name": "Laravel",
+        "level": "90%"
       },
       {
-        "name": ".NET",
+        "name": "React/Vue",
+        "level": "80%"
+      },
+      {
+        "name": "NoSQL",
+        "level": "80%"
+      },
+      {
+        "name": ".NET Framework",
         "level": "70%"
       },
       {
-        "name": "MySQL / NoSQL",
-        "level": "83%"
+        "name": "SQL",
+        "level": "70%"
       }
     ]
   },
