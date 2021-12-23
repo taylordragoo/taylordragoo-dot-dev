@@ -14,68 +14,47 @@ class Resume extends Component {
         return <div key={work.company}><h3>{work.company}</h3>
             <p className="info">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
             <ul>
-              <li>{work.description1}</li>
-              <li>{work.description2}</li>
-              <li>{work.description3}</li>
+                <li>{work.description1}</li>
+                <li>{work.description2}</li>
+                <li>{work.description3}</li>
+                <li>{work.description4}</li>
+                <li>{work.description5}</li>
             </ul>
         </div>
       })
       var skills = this.props.data.skills.map(function(skills){
         var className = 'bar-expand '+skills.name.toLowerCase();
-        return <li key={skills.name}><span style={{width:skills.level}}className={className}></span><em>{skills.name}</em></li>
+        return <li key={skills.name}><em>{skills.name}</em></li>
       })
     }
 
     return (
-      <section id="resume">
+        <section id="resume">
 
-      <div className="row education">
-         <div className="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
+            <div className="row work">
+                <div className="three columns header-col">
+                    <h1><span>Work</span></h1>
+                </div>
 
-         <div className="nine columns main-col">
-            <div className="row item">
-               <div className="twelve columns">
-                 {education}
-               </div>
+                <div className="nine columns main-col">
+                    {work}
+                </div>
             </div>
-         </div>
-      </div>
 
+            <div className="row education">
+                <div className="three columns header-col">
+                    <h1><span>Education</span></h1>
+                </div>
 
-      <div className="row work">
-
-         <div className="three columns header-col">
-            <h1><span>Work</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-          {work}
-        </div>
-    </div>
-
-
-
-      <div className="row skill">
-
-         <div className="three columns header-col">
-            <h1><span>Relative Skillset</span></h1>
-         </div>
-
-         <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
-      </div>
-   </section>
+                <div className="nine columns main-col">
+                    <div className="row item">
+                        <div className="twelve columns">
+                            {education}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     );
   }
 }

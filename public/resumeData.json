@@ -1,10 +1,10 @@
 {
   "main": {
     "name": "Taylor Dragoo",
-    "occupation": "Software Developer",
+    "occupation": "Fullstack Developer",
     "description": "With a passion for web applications, UX and sound design",
     "image": "profpic.jpg",
-    "bio": "Experienced Leader with a demonstrated history of working in the information technology industry. Skilled in solving problems with HTML, CSS, Javascript, React, SQL, and .NET! I am focused on adding value to any team I am on and believe we all rise together working as a team. If a portion of the team needs help with a task, I do not hesitate to assist. I am also an avid sound designer, game developer, and participant in the overall game dev community having participated in multiple game jams as a sound designer and lead programmer.",
+    "bio": "Experienced Leader with a demonstrated history of working in the information technology industry. Skilled in solving problems with Laravel, Vue and C#. I am focused on adding value to any team I am on and believe we all rise together working as a team. If a portion of the team needs help with a task, I do not hesitate to assist. I am also an avid sound designer, game developer, and participant in the overall game dev community having participated in multiple game jams as a sound designer and lead programmer.",
     "bio2": "I took the knowledge gained from being a sound editor and decided to pursue a second Bachelor’s degree, After looking at different programs, I began the Bachelor of Science in Computer Science program online at Fort Hays State University.",
     "bio3": "Prior to starting my Computer Science degree I had begun my career as an IT Support Analyst at the University of Oklahoma Health Sciences Center which is where I still currently reside.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
@@ -13,32 +13,17 @@
     "address": {
       "street": "4001 Oxford Way",
       "city": "Norman",
-      "state": "OK",
+      "state": "Oklahoma",
       "zip": "73072"
     },
     "website": "http://www.taylordragoo.com",
-    "pdfresumedownload": "https://drive.google.com/file/d/1UkSkF2okZmCqqFmtlmvCrgrqCKcgRalJ/view?usp=sharing",
+    "pdfresumedownload": "https://drive.google.com/file/d/1ayXqLgVTcwNkUUaBYnnQdHxVFJwYpT1q/view?usp=sharing",
     "docresumedownload": "https://drive.google.com/file/d/1eJlsid58HNWX7Yh5SIUVPPrQuVqscK0f/view?usp=sharing",
     "social": [
-      {
-        "name": "facebook",
-        "url": "http://facebook.com/taylor.dragoo",
-        "className": "fa fa-facebook"
-      },
-      {
-        "name": "twitter",
-        "url": "http://twitter.com/taylordragoo",
-        "className": "fa fa-twitter"
-      },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/taylorddragoo/",
         "className": "fa fa-linkedin"
-      },
-      {
-        "name": "instagram",
-        "url": "http://instagram.com/taylorddragoo",
-        "className": "fa fa-instagram"
       },
       {
         "name": "github",
@@ -53,7 +38,7 @@
       {
         "school": "Fort Hays State University",
         "degree": "Bachelor of Science in Computer Science",
-        "graduated": "Est. Fall 2021",
+        "graduated": "Est. Spring 2022",
         "description": " "
       },
       {
@@ -65,12 +50,14 @@
     ],
     "work": [
       {
-        "company": "Full Stack Developer",
+        "company": "Fullstack Developer",
         "title": "University of Oklahoma",
         "years": "July 2021 - Present",
-        "description1": "Collaborated with strategist and end-user to define and develop new application concepts to be used by the College of Medicine at the Health Sciences Center.",
-        "description2": "Drove continual improvement to system architecture by refactoring old legacy code that had been written in ColdFusion 11 to Laravel.",
-        "description3": "Provide feedback to the development group to improve agile project management methods."
+        "description1": "Collaborated with project managers, business analysts and end-users to define and develop\nnew application concepts to be used by the College of Medicine",
+        "description2": "Established continual improvement to system architecture by refactoring old legacy code that\nhad been written in ColdFusion 11 to Laravel and VueJs",
+        "description3": "Led the integration of two legacy faculty SQL databases into a new single unified-schema",
+        "description4": "Developed various web service/APIs to fetch the data and populate on the UI",
+        "description5": "Environment: Laravel, Vue, SQL Server, Axios, Docker"
       },
       {
         "company": "IT Support Analyst",
@@ -98,27 +85,23 @@
       },
       {
         "name": "C#",
-        "level": "90%"
+        "level": "60%"
       },
       {
         "name": "Laravel",
-        "level": "90%"
+        "level": "100%"
+      },
+      {
+        "name": "PHP",
+        "level": "100%"
       },
       {
         "name": "React/Vue",
         "level": "80%"
       },
       {
-        "name": "NoSQL",
-        "level": "80%"
-      },
-      {
-        "name": ".NET Framework",
-        "level": "70%"
-      },
-      {
         "name": "SQL",
-        "level": "70%"
+        "level": "80%"
       }
     ]
   },

@@ -31,22 +31,14 @@ class About extends Component {
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
-					   </p>
-               </div>
-               <div className="columns download">
-                  <p>
-                     <a href={pdfresumeDownload} className="button" target="_blank" rel="noreferrer"><i className="fa fa-download"></i>Resume .PDF</a>
+                      <span>{name}</span><br />
+                      <span>{phone}</span><br />
+                      <span>{email}</span>
                   </p>
                </div>
                <div className="columns download">
                   <p>
-                     <a href={docresumeDownload} className="button" target="_blank" rel="noreferrer"><i className="fa fa-download"></i>Resume .DOCX</a>
+                     <a href={pdfresumeDownload} className="button" target="_blank" rel="noreferrer"><i className="fa fa-download"></i>Resume .PDF</a>
                   </p>
                </div>
             </div>
